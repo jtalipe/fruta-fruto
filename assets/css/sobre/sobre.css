@@ -1,0 +1,17 @@
+.sobre{    
+    text-align: center;
+}
+
+/*para pantallas menores de 768*/
+@media screen (min-width: 0) {
+    .sobre {
+        padding: 2.5rem 1rem;
+    }    
+}
+
+/*para pantallas mayores a 768px el espacio interno sera de 2.5rem*/
+@media screen (min-width: 768px) {
+    .sobre {
+        padding: 2.5rem;
+    }    
+}

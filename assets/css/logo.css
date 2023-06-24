@@ -1,0 +1,17 @@
+/*cuando la pantalla sea min el logo se desaparezca*/
+@media screen and (min-width: 0) {
+    .logo {
+        display: none;
+    } 
+        
+}
+
+/*cuando la pantalla sea mayor a 768px que el logo aparezca*/
+@media screen and (min-width: 768px) {
+    .logo {
+        display: block;
+    } 
+        
+}
+
+
